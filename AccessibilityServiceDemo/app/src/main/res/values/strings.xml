@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoPy</string>
+    <string name="app_accessibility_description">"点击右上角按钮，开启无障碍服务"</string>
+</resources>
