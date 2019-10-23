@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="whstywh.com.accessibilityservicedemo.MainActivity">
+
+	<Button
+		android:id="@+id/install"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_margin="10dp"
+		android:onClick="install"
+		android:text="安装Dian模块"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="50dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="使用方法"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:gravity="center"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="import Dian#先导入模块"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="#点击"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Dian.dian(x,y)#单点坐标"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="#拖动"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Dian.tuo(x1,y1,x2,y2)#两点的坐标"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
